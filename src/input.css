@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+.links {
+  @apply bg-grey-800 w-full py-3 text-center rounded-lg hover:bg-primary hover:text-grey-900 cursor-pointer;
+}
+@tailwind utilities;
+ 
